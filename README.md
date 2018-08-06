@@ -1,4 +1,4 @@
-# Koushik Meenakshisundaram - Girhub Pages Site
+# Koushik Meenakshisundaram - Github Pages Site
 
 ## Preview
 
