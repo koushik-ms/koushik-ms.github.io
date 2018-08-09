@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <meta name="theme-color" content="#DD7200"/>
 
   <title>Koushik Meenakshisundaram - Portfolio</title>
 
@@ -23,10 +24,24 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="img/icons/icon-96x96.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon-precomposed" href="img/icons/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
 </head>
 
 <body id="page-top">
-
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(function() {
+              console.log('Service Worker Registered');
+        });
+    }
+  </script>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Sections</span>
@@ -297,7 +312,7 @@
               <div class="card-body">
                 <h5 class="card-title">Math PWA</h5>
                 <h6 class="card-subtitle mb-2 text-muted">#cross-platform #ionic #iOS #android</h6>
-                <p class="card-text">A Companion in learning multiplication tables</p>
+                <p class="card-text">A Companion in learning multiplication tables. In terms of architecture, this is an attempt to unify Ionic and PWA to provide maximum flexibility in deployment.</p>
                 <a href="https://koushik.win/math-pwa" class="card-link small">See it in action!</a>
                 <br>
                 <a href="https://github.com/koushik-ms/math-pwa/" class="card-link small">Get Source</a>
