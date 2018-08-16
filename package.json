@@ -1,33 +1,32 @@
 {
     "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "4.1.1",
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "name": "koushik-meenakshisundaram-resume",
+    "version": "1.0.0",
+    "description": "An online resume/ portfolio of projects built by the author. Based on startboostrap resume template",
     "keywords": [
         "css",
         "sass",
         "html",
         "responsive",
-        "theme",
-        "template"
+        "resume",
+        "portfolio",
+        "showcase"
     ],
     "homepage": "https://startbootstrap.com/template-overviews/resume",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+        "url": "https://github.com/koushik-ms/koushik-ms.github.io/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Koushik Meenakshisundaram",
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/koushik-ms/koushik-ms.github.io.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
         "devicons": "^1.8.0",
+        "font-awesome": "^4.7.0",
         "jquery": "3.3.1",
         "simple-line-icons": "^2.4.1"
     },
